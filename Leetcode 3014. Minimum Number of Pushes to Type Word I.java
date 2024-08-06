@@ -20,6 +20,7 @@ class Solution {
 }
 
 //more optimised
+//Since elements are unique in this Array we don't have to calculate fequiencies of characters
 class Solution {
     public int minimumPushes(String word) {
         int n=word.length();
